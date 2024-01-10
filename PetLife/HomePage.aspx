@@ -7,7 +7,7 @@
     <title>Home Page</title>
     <style>
         body {
-            background-image: url('https://i.ibb.co/S6TddSL/Whats-App-G-rsel-2024-01-08-saat-22-17-01-dd2956e8.jpg'); /* Replace with your image URL */
+            background-image: url('https://i.ibb.co/S6TddSL/Whats-App-G-rsel-2024-01-08-saat-22-17-01-dd2956e8.jpg'); 
             background-size: 100%,100%;
             background-repeat: no-repeat;
             background-position: top;
@@ -25,8 +25,8 @@
         }
 
         .logo {
-            width: 200px; /* Adjust the size as needed */
-            height: 200px; /* Adjust the size as needed */
+            width: 200px; 
+            height: 200px; 
         }
 
         .add-animal-button {
@@ -49,7 +49,7 @@
         }
 
         .button {
-            margin: 0 15px; /* More space between buttons */
+            margin: 0 15px; 
             padding: 10px 20px;
             font-size: 16px;
             background-color: rgba(52, 152, 219, 0.2);
@@ -65,14 +65,14 @@
         }
 
         .add-animal-button:hover {
-            background-color: #bdc3c7; /* Adjust the color as needed */
+            background-color: #bdc3c7; 
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="header">
-            <img class="logo" src="https://i.ibb.co/pRsC8Gx/Whats-App-G-rsel-2024-01-08-saat-22-15-28-07896cd6-removebg-preview.png" alt="Logo" /> <!-- Replace with your logo image URL -->
+            <img class="logo" src="https://i.ibb.co/pRsC8Gx/Whats-App-G-rsel-2024-01-08-saat-22-15-28-07896cd6-removebg-preview.png" alt="Logo" /> 
             <div class="button-container">
                 <asp:Button runat="server" ID="Button1" Text="Ana Sayfa" CssClass="button" OnClientClick="return false;" />
                 <asp:Button runat="server" ID="Button2" Text="Dostlarım" CssClass="button" OnClientClick="return false;" />

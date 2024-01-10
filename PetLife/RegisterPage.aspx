@@ -115,8 +115,8 @@ input {
 
 .login-bg {
     object-fit: cover;
-    height: 200%; /* Ensure the image takes up the full width of the container */
-     max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+    height: 200%; 
+     max-width: 100%; 
     max-height: 100%;
 }
 
@@ -126,10 +126,10 @@ input {
             var passwordInput = document.getElementById('<%= PasswordTextBox.ClientID %>');
             var passwordIcon = document.getElementById('password-icon');
 
-            // Toggle the password input type between text and password
+           
             passwordInput.type = (passwordInput.type === 'password') ? 'text' : 'password';
 
-            // Change the eye icon based on the password visibility
+            
             var iconImageUrl = (passwordInput.type === 'password') ? 'https://cdn-icons-png.flaticon.com/512/63/63498.png' : 'https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_visibility_48px-512.png';
             passwordIcon.src = iconImageUrl;
         }
